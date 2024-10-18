@@ -1,4 +1,5 @@
-# RAG-Chat-with-data
+# LLM Learnings
+
 * **Document search**:
   It is way to find relevant documents in response to query. This is a vector search approach.
   
@@ -36,8 +37,20 @@
   ```
   On swagger UI, need to input cohere key, query, and pdf file. This will return JSON response with query and corresponding answer.
 
+* **Langchain's Runnable Interface**:
+
+  The notebook ```Implementation of Langchain's Runnable Interface``` contains each runnable method's example to understand its functionality.
+
+  The methods covered are:
+  * Pipe operator
+  * RunnableLambda
+  * RunnablePassthrough
+  * RunnableParallel
+  * RunnablePassthrough.assign
+
    
   
 **References**:
 1. https://python.langchain.com/docs/get_started/introduction
 2. https://docs.cohere.com/docs/the-cohere-platform
+3. https://python.langchain.com/v0.1/docs/expression_language/interface/
