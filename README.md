@@ -48,7 +48,15 @@
   * RunnableParallel
   * RunnablePassthrough.assign
 
-   
+* **Multilingual Question Anwering**:
+
+  * The multilingual QA can be implemented with 2 approaches.
+    1. Multilingual embedding model: ```Multilingual QA (Part 1)``` notebook
+    2. With translation step at the query processing: ```Multilingual QA (Part 2)``` notebook
+
+  * These both methods are useful when documents are in english but question asked and answer expected in another language.
+
+  * The Multilingual embedding approach is useful even when documents are in other languages than english.
   
 **References**:
 1. https://python.langchain.com/docs/get_started/introduction
